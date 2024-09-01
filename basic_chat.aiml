@@ -4,73 +4,40 @@
     <!-- School-related questions -->
  <!-- Greetings -->
   <category>
-    <pattern>HELLO</pattern>
-    <template>Hello there!</template>
+    <pattern>Hey</pattern>
+    <template>Hello there! Welcome to our online School webpage </template>
   </category>
 
   <!-- School Information -->
   <category>
     <pattern>WHAT IS THE SCHOOL NAME</pattern>
-    <template>Our school name is [School Name].</template>
+    <template>Our school name is St.John.High.School</template>
   </category>
+
   <category>
     <pattern>WHERE IS THE SCHOOL LOCATED</pattern>
-    <template>Our school is located at [Address].</template>
+    <template>Our school is located at Borivali(E).</template>
   </category>
   <category>
-    <pattern>WHAT IS THE SCHOOL PHONE NUMBER</pattern>
-    <template>Our school phone number is [Phone Number].</template>
-  </category>
-  <category>
-    <pattern>WHAT IS THE SCHOOL EMAIL</pattern>
-    <template>Our school email is [Email].</template>
+    <pattern>How to contact </pattern>
+    <template>Connect to our website</template>
   </category>
 
   <!-- Admission -->
   <category>
     <pattern>HOW DO I APPLY FOR ADMISSION</pattern>
-    <template>Please visit our website or contact the admission office.</template>
-  </category>
-  <category>
-    <pattern>WHAT ARE THE ADMISSION REQUIREMENTS</pattern>
-    <template>Please visit our website or contact the admission office.</template>
-  </category>
-  <category>
-    <pattern>WHAT IS THE ADMISSION FEE</pattern>
-    <template>Please visit our website or contact the admission office.</template>
+    <template>Please visit our website or contact the admission office.
+    https://stjohnshighschoolicse.in/
+    </template>
   </category>
 
-  <!-- Fees -->
-  <category>
-    <pattern>WHAT IS THE SCHOOL FEE STRUCTURE</pattern>
-    <template>Please visit our website or contact the administration office.</template>
-  </category>
-  <category>
-    <pattern>HOW DO I PAY SCHOOL FEES</pattern>
-    <template>Please visit our website or contact the administration office.</template>
-  </category>
-  <!-- Academics -->
-  <category>
-    <pattern>WHAT ARE THE SCHOOL HOURS</pattern>
-    <template>Our school hours are from 8:00 AM to 2:00 PM.</template>
-  </category>
-  <category>
-    <pattern>WHAT ARE THE SCHOOL SUBJECTS</pattern>
-    <template>We offer [list subjects].</template>
-  </category>
-  <category>
-    <pattern>WHO ARE THE TEACHERS</pattern>
-    <template>Please visit our website or contact the administration office.</template>
-  </category>
-
-  <!-- Extracurricular Activities -->
+ <!-- Extracurricular Activities -->
   <category>
     <pattern>WHAT ARE THE EXTRACURRICULAR ACTIVITIES</pattern>
-    <template>We offer sports, music, dance, and art clubs.</template>
-  </category>
-  <category>
-    <pattern>HOW DO I JOIN A CLUB</pattern>
-    <template>Please contact the club advisor or administration office.</template>
+    <template>We offer sports, music, dance, and art clubs.
+        You can checkout on our youtube channel
+        https://youtu.be/xeLEoyJiPfA?si=11FL1_LwEGL48TRT
+    </template>
   </category>
 
   <!-- Facilities -->
@@ -78,55 +45,12 @@
     <pattern>WHAT FACILITIES DOES THE SCHOOL OFFER</pattern>
     <template>We offer IT LAB,Sports,Event organize,Festivals.</template>
   </category>
-  <category>
-    <pattern>IS THERE A SCHOOL LIBRARY</pattern>
-    <template>Yes, we have a library with books & computers.</template>
-  </category>
+
 
   <!-- Transportation -->
   <category>
     <pattern>IS THERE SCHOOL TRANSPORTATION</pattern>
     <template>Yes, we offer bus services.</template>
   </category>
-  <category>
-    <pattern>HOW DO I APPLY FOR SCHOOL TRANSPORTATION</pattern>
-    <template>Please contact the transportation office.</template>
-  </category>
-
-  <!-- Food -->
-  <category>
-    <pattern>IS THERE A SCHOOL CAFETERIA</pattern>
-    <template>Yes, we have a cafeteria with [menu options].</template>
-  </category>
-  <category>
-    <pattern>HOW DO I APPLY FOR SCHOOL MEALS</pattern>
-    <template>Please contact the cafeteria office.</template>
-  </category>
-
-  <!-- Safety -->
-  <category>
-    <pattern>WHAT SAFETY MEASURES DOES THE SCHOOL HAVE</pattern>
-    <template>We have [list safety measures].</template>
-  </category>
-  <category>
-    <pattern>WHO IS THE SCHOOL SAFETY OFFICER</pattern>
-    <template>Please contact the administration office.</template>
-  </category>
-
-  <!-- Contact -->
-  <category>
-    <pattern>HOW DO I CONTACT THE SCHOOL</pattern>
-    <template>Please visit our website or contact the administration office.
-               https://shailendradegreecollege.in/Admission.htm
-    </template>
-  </category>
-
-  <!-- Default response -->
-  <category>
-    <pattern>*</pattern>
-    <template>Sorry, I didn't understand that.</template>
-  </category>
-
-
 
 </aiml>
