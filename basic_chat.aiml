@@ -53,4 +53,77 @@
     <template>Yes, we offer bus services.</template>
   </category>
 
+
+    <!-- Additional Questions -->
+    <!-- Academics -->
+    <category>
+        <pattern>WHAT IS THE CURRICULUM</pattern>
+        <template>We follow the ICSE curriculum.</template>
+    </category>
+    <category>
+        <pattern>WHAT ARE THE SUBJECTS OFFERED</pattern>
+        <template>We offer a wide range of subjects, including languages, sciences, mathematics, and social sciences.</template>
+    </category>
+    <category>
+        <pattern>ARE THERE ANY SPECIAL CLASSES</pattern>
+        <template>Yes, we offer special classes for students with special needs.</template>
+    </category>
+    <!-- Infrastructure -->
+    <category>
+        <pattern>IS THERE A LIBRARY</pattern>
+        <template>Yes, we have a well-stocked library.</template>
+    </category>
+    <category>
+        <pattern>ARE THERE SCIENCE LABS</pattern>
+        <template>Yes, we have state-of-the-art science labs.</template>
+    </category>
+    <category>
+        <pattern>IS THERE A PLAYGROUND</pattern>
+        <template>Yes, we have a spacious playground.</template>
+    </category>
+    <!-- Events -->
+    <category>
+        <pattern>ARE THERE ANY ANNUAL EVENTS</pattern>
+        <template>Yes, we have an annual day, sports day, and cultural fest.</template>
+    </category>
+    <category>
+        <pattern>ARE THERE ANY CLUBS</pattern>
+        <template>Yes, we have various clubs like robotics, debate, and drama.</template>
+    </category>
+    <category>
+        <pattern>ARE THERE ANY GUEST LECTURES</pattern>
+        <template>Yes, we have guest lectures from industry experts.</template>
+    </category>
+    <!-- Support -->
+    <category>
+        <pattern>IS THERE COUNSELING AVAILABLE</pattern>
+        <template>Yes, we have a counseling department.</template>
+    </category>
+    <category>
+        <pattern>ARE THERE ANY SCHOLARSHIPS</pattern>
+        <template>Yes, we offer scholarships to deserving students.</template>
+    </category>
+    <category>
+        <pattern>IS THERE A PLACEMENT CELL</pattern>
+        <template>Yes, we have a placement cell.</template>
+    </category>
+
+    <!-- Miscellaneous -->
+    <category>
+        <pattern>WHAT IS THE SCHOOL TIMING</pattern>
+        <template>Our school timing is from 8am to 2pm.</template>
+    </category>
+    <category>
+        <pattern>IS THERE A UNIFORM</pattern>
+        <template>Yes, we have a school uniform.</template>
+    </category>
+
+    <category>
+    <pattern> SCHOOL RULES</pattern>
+        <template>Yes, we have a set of rules to maintain discipline.\n
+            we have own rules
+        </template>
+    </category>
+
+
 </aiml>
