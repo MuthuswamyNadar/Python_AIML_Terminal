@@ -1,24 +1,13 @@
 import aiml
 import tkinter as tk
-from tkinter import scrolledtext, filedialog
-import xlsxwriter
-import logging
+from tkinter import scrolledtext
 
 class ChatBotGUI:
     def __init__(self):
-        # Initialize logging
-        logging.basicConfig(level=logging.INFO)
+        self.kernel = aiml.Kernel()
+        self.kernel.learn("std-startup.xml")
+        self.kernel.respond("load aiml b")
 
-        # Initialize AIML kernel
-        try:
-            self.kernel = aiml.Kernel()
-            self.kernel.learn("std-startup.xml")
-            self.kernel.respond("load aiml b")
-        except Exception as e:
-            logging.error(f"AIML initialization failed: {e}")
-            return
-
-        # Create main window
         self.root = tk.Tk()
         self.root.title("SchoolBot")
 
@@ -45,10 +34,6 @@ class ChatBotGUI:
         self.clear_button = tk.Button(self.input_frame, text="Clear", command=self.clear_chat, font=("Arial", 12))
         self.clear_button.pack(side="left", padx=5, pady=5)
 
-        # Export to Excel button
-        self.export_button = tk.Button(self.input_frame, text="Export to Excel", command=self.export_to_excel, font=("Arial", 12))
-        self.export_button.pack(side="left", padx=5, pady=5)
-
         # Configure chat log colors
         self.chat_log.tag_config('green', foreground='green')
         self.chat_log.tag_config('blue', foreground='blue')
@@ -65,27 +50,6 @@ class ChatBotGUI:
 
     def clear_chat(self):
         self.chat_log.delete(1.0, tk.END)
-
-    def export_to_excel(self):
-        # Get chat log text
-        chat_text = self.chat_log.get('1.0', tk.END)
-
-        # Ask user for file name
-        file_name = filedialog.asksaveasfilename(defaultextension=".xlsx", filetypes=[("Excel Files", "*.xlsx")])
-
-        if file_name:
-            # Create Excel file
-            workbook = xlsxwriter.Workbook(file_name)
-            worksheet = workbook.add_worksheet()
-
-            # Write chat log to Excel file
-            row = 0
-            for line in chat_text.split('\n'):
-                worksheet.write(row, 0, line)
-                row += 1
-
-            workbook.close()
-            logging.info(f"Chat log exported to {file_name}")
 
     def run(self):
         self.root.geometry("600x600")  # Set window size
