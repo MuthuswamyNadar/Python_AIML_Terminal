@@ -111,7 +111,7 @@
     <!-- Miscellaneous -->
     <category>
         <pattern>WHAT IS THE SCHOOL TIMING</pattern>
-        <template>Our school timing is from 8am to 2pm.</template>
+        <template>Our school timing is from 7am to 12pm.</template>
     </category>
     <category>
         <pattern>IS THERE A UNIFORM</pattern>
@@ -119,9 +119,34 @@
     </category>
 
     <category>
-    <pattern> SCHOOL RULES</pattern>
-        <template>Yes, we have a set of rules to maintain discipline.\n
-            we have own rules
+    <pattern> Are there any special needs or support services</pattern>
+        <template>Yes, we provide support for students with special needs.
+        </template>
+    </category>
+     <category>
+    <pattern> School rules</pattern>
+        <template>Students must arrive on time; late arrivals will receive disciplinary action.
+        </template>
+    </category>
+
+     <category>
+    <pattern> Safety </pattern>
+        <template> CCTV cameras, on-campus security personnel.
+        </template>
+    </category>
+     <category>
+    <pattern>What subjects are offered at each level</pattern>
+        <template>We offer subject depend upon primary, secondary, and senior secondary levels.
+        </template>
+    </category>
+     <category>
+    <pattern>Are there any special needs or support services</pattern>
+        <template>Yes, we provide support for students with special needs
+        </template>
+    </category>
+     <category>
+    <pattern> What documents are required for admission</pattern>
+        <template>Birth certificate, transcripts, immunization records, and ID proof
         </template>
     </category>
 

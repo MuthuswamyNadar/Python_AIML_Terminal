@@ -6,6 +6,7 @@ from tkinter import scrolledtext
 class ChatBotGUI:
     def __init__(self):
         self.kernel = aiml.Kernel()
+
         self.kernel.learn("std-startup.xml")
         self.kernel.respond("load aiml b")
 
@@ -20,7 +21,7 @@ class ChatBotGUI:
         self.input_frame.pack(padx=10, pady=5, fill="x")
 
         # Chat log
-        self.chat_log = scrolledtext.ScrolledText(self.chat_frame, width=60, height=20, font=("Arial", 12))
+        self.chat_log = scrolledtext.ScrolledText(self.chat_frame, width=60, height=20, font=("Arial", 16))
         self.chat_log.pack(padx=5, pady=5, fill="both", expand=True)
 
         # Input field and send button
@@ -49,10 +50,9 @@ class ChatBotGUI:
         self.chat_log.insert(tk.END, ">Human: ", 'blue')
         self.chat_log.insert(tk.END, user_message + "\n", 'green')
         self.chat_log.insert(tk.END, ">Bot: ", 'blue')
-        self.chat_log.insert(tk.END, response + "\n", 'green')
+        self.chat_log.insert(tk.END, response + "\n\n\n", 'green')
         self.chat_log.yview(tk.END)
         self.input_text.set("")
-
 
 
     def clear_chat(self):
