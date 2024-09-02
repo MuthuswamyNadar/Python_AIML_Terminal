@@ -11,12 +11,12 @@
   <!-- School Information -->
   <category>
     <pattern>WHAT IS THE SCHOOL NAME</pattern>
-    <template>Our school name is St.John.High.School</template>
+    <template>Our school name is Shaildendra School</template>
   </category>
 
   <category>
     <pattern>WHERE IS THE SCHOOL LOCATED</pattern>
-    <template>Our school is located at Borivali(E).</template>
+    <template>Our school is located at Dahisar(E).</template>
   </category>
   <category>
     <pattern>How to contact </pattern>
@@ -33,7 +33,7 @@
 
  <!-- Extracurricular Activities -->
   <category>
-    <pattern>WHAT ARE THE EXTRACURRICULAR ACTIVITIES</pattern>
+    <pattern>WHAT ARE THE EXTRACURRICULAR ACTIVITIES IN SCHOOL</pattern>
     <template>We offer sports, music, dance, and art clubs.
         You can checkout on our youtube channel
         https://youtu.be/xeLEoyJiPfA?si=11FL1_LwEGL48TRT
@@ -79,7 +79,7 @@
     </category>
     <category>
         <pattern>IS THERE A PLAYGROUND</pattern>
-        <template>Yes, we have a spacious playground.</template>
+        <template>Yes, we have a specialized playground.</template>
     </category>
     <!-- Events -->
     <category>
@@ -130,11 +130,11 @@
     </category>
 
      <category>
-    <pattern> Safety </pattern>
+    <pattern> What safety do school provide </pattern>
         <template> CCTV cameras, on-campus security personnel.
         </template>
     </category>
-     <category>
+    <category>
     <pattern>What subjects are offered at each level</pattern>
         <template>We offer subject depend upon primary, secondary, and senior secondary levels.
         </template>
